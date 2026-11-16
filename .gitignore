@@ -1,0 +1,36 @@
+# Build directories and artifacts
+build/
+build-*/
+arm/
+x86/
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.bar
+*.moc
+Makefile
+Makefile.*
+moc_*
+qrc_*
+ui_*
+.assets.index
+.qmake.cache
+.qmake.stash
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs and scratch
+*.log
+*.jsonl
+*.pcap
+__pycache__/
+*.pyc
+.env
+*.local.toml
